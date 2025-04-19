@@ -1,0 +1,83 @@
+//= chunks/head.html
+<body id="top">
+  //= chunks/preloader.html
+  //= chunks/toolbar.html
+  //= chunks/offcanvas-cart.html
+  //= chunks/header.html
+  //= chunks/top-menu.html
+  //= chunks/offcanvas-menu.html
+  <div class="uk-container uk-container-center">
+    <div id="content" class="uk-grid uk-margin-bottom">
+      //= chunks/breadcrumb.html
+      <div class="uk-width-1-1">
+        <div class="uk-grid">
+          <div class="uk-width-medium-1-4">
+            <div class="uk-panel uk-panel-box">
+              <h3 class="uk-panel-title">Профиль</h3>
+              <ul class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav>
+                <li><a href="history.html">История заказов</a></li>
+                <li class="uk-active"><a href="profile.html">Изменить профиль</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Выйти</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="uk-width-medium-3-4">
+            <h1>Изменить профиль</h1>
+            <div class="uk-width-1-1 uk-row-first">
+              <div class="uk-panel uk-panel-box">
+                <p class="uk-text-small">Вы должны заполнить объязательные поля, отмеченные звёздочкой <span class="uk-text-large uk-text-danger">*</span></p>
+                <form class="uk-form">
+                  <div class="uk-grid">
+                    <div class="uk-width-medium-2-5 uk-text-right uk-text-left-small uk-text-"><label for="avatar">Аватар</label></div>
+                    <div class="uk-width-medium-3-5">
+                      <img data-src="holder.js/100x100?theme=sky&font=Open Sans&size=14&auto=yes" alt="">
+                      <p class="uk-text-small uk-margin-bottom uk-margin-small-top">Если вы не загрузите собственную картинку, ававар будет получен автоматически с сервиса <a href="#">Gravatar</a></p>
+                    </div>
+                    <div class="uk-width-medium-2-5 uk-text-right uk-text-left-small uk-text-"><label for="username">Имя пользователя <span class="uk-text-large uk-text-danger">*</span></label></div>
+                    <div class="uk-width-medium-3-5">
+                      <input type="text" placeholder="" id="username" class="uk-width-1-1" value="kamuz">
+                      <p class="uk-text-small uk-margin-bottom uk-margin-small-top">Имя пользователя, например superman</p>
+                    </div>
+                    <div class="uk-width-medium-2-5 uk-text-right uk-text-left-small uk-text-"><label for="fullname">Полное имя <span class="uk-text-large uk-text-danger">*</span></label></div>
+                    <div class="uk-width-medium-3-5">
+                      <input type="text" placeholder="" id="fullname" class="uk-width-1-1" value="Владимир Камуз">
+                      <p class="uk-text-small uk-margin-bottom uk-margin-small-top">Ваше полное имя, например Иван Сусанин</p>
+                    </div>
+                    <div class="uk-width-medium-2-5 uk-text-right uk-text-left-small uk-text-"><label for="email">Email <span class="uk-text-large uk-text-danger">*</span></label></div>
+                    <div class="uk-width-medium-3-5">
+                      <input type="text" placeholder="" id="email" class="uk-width-1-1" value="username@gmail.com">
+                      <p class="uk-text-small uk-margin-bottom uk-margin-small-top">Новый email нужно будет подтвердить</p>
+                    </div>
+                    <div class="uk-width-medium-2-5 uk-text-right uk-text-left-small uk-text-"><label for="password">Пароль <span class="uk-text-large uk-text-danger">*</span></label></div>
+                    <div class="uk-width-medium-3-5">
+                      <input type="password" placeholder="" id="password" class="uk-width-1-1" value="12345">
+                      <p class="uk-text-small uk-margin-bottom uk-margin-small-top">Вы можете указать новый пароль</p>
+                      <input type="password" placeholder="" class="uk-width-1-1" value="12345">
+                      <p class="uk-text-small uk-margin-bottom uk-margin-small-top">Нужно повторить новый пароль ещё раз, чтобы исключить опечатку</p>
+                    </div>
+                    <div class="uk-width-medium-2-5 uk-text-right uk-text-left-small uk-text-"><label for="password">Доступные провайдеры</label></div>
+                    <div class="uk-width-medium-3-5 uk-margin-bottom">
+                      <a href="#"><i class="uk-icon-vk uk-icon-button"></i></a>
+                      <a href="#"><i class="uk-icon-facebook uk-icon-button"></i></a>
+                      <a href="#"><i class="uk-icon-twitter uk-icon-button"></i></a>
+                      <a href="#"><i class="uk-icon-odnoklassniki uk-icon-button"></i></a>
+                    </div>
+                    <div class="uk-width-medium-2-5">&nbsp;</div>
+                    <div class="uk-width-medium-3-5">
+                      <button class="uk-button uk-button-primary uk-button-large uk-width-1-1">Сохранить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  //= chunks/footer.html
+  //= chunks/login.html
+//= chunks/scripts.html
+</body>
+</html>
